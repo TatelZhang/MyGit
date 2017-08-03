@@ -19,6 +19,18 @@ git reflog		  查看版本修改历史
 
 在工作区的操作需要使用 git add 将修改添加到暂存区，使用 commit 合并到分支
 
-每一次add 意味着需要commit一次，在add之后修改文件需要再一次add
+每一次add 意味着需要commit一次，在add之后未commit，修改文件需要再一次add，
+否则只会提交第一次add的内容，若修改前未commit，之后的add的会覆盖之前的add
+
+git commit 只会提交暂存区的修改
+git 每次如果不 add 到暂存区，那就不会加入到 commit 中
+
+
+
+
+
+
+
+
 
 
