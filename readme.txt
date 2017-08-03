@@ -27,6 +27,8 @@ git 每次如果不 add 到暂存区，那就不会加入到 commit 中
 
 git checkout -- <file>      可以丢弃工作区的修改，不能丢弃暂存区的修改
 
+git reset HEAD <file>       可以把提交到暂存区的修改撤销
+
 
 
 
