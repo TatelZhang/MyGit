@@ -17,6 +17,8 @@ git reset --hard <版本号> 返回到版本
 
 git reflog		  查看版本修改历史
 
+在工作区的操作需要使用 git add 将修改添加到暂存区，使用 commit 合并到分支
 
+每一次add 意味着需要commit一次，在add之后修改文件需要再一次add
 
 
